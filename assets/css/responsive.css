@@ -7,6 +7,30 @@
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .withMenuLogo a.logo-area { 
+        margin-right: 40px;
+    }
+    .header-actions a.themeBtn.inactive {
+        margin-right: 10px;
+    }
+    .hero-content h1 { 
+        font-size: 62px;
+        line-height: 76px; 
+    }
+    .minfoBlk h5 {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 40px;
+        margin: 20px 0;
+    }
+
+
+
+
+
+
+
+
 
 
 }

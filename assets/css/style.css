@@ -100,7 +100,9 @@ img{
 a{
   text-decoration: none;
 }
-
+main{
+  overflow: hidden;
+}
 
 /* default-css END 
 ================================== */
@@ -165,7 +167,9 @@ ul#menu li {
   margin-right: 30px;
   color: #FFFFFF;
 }
-
+ul#menu li:last-child{
+  margin-right: 0;
+}
 ul#menu li a {
   transition: all .2s;
 }
@@ -489,6 +493,7 @@ line-height: 55px;
 
 
 footer {
+  overflow: hidden;
   background: #12071B;
 }
 
