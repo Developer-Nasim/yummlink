@@ -9,11 +9,11 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  font-weight: 400; 
+  font-weight: 300; 
   color: #D8CAE1;
   background: #0d0613;
-  font-size: 18px; 
-  line-height: 30px;
+  font-size: 16px; 
+  line-height: 22px;
 }
 
   
@@ -90,7 +90,7 @@ li {
  }
  
  .container{
-    max-width: 1300px;
+    max-width: 1270px;
  }
 img{
   max-width: 100%;
@@ -114,7 +114,7 @@ main{
 
 /* Breadcrumb css  */
 .Breadcrumb-area ul.bcmb {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 ul.bcmb {
   display: flex;
@@ -151,7 +151,10 @@ ul.bcmb li {
   display: flex;
   align-items: center;
 }
-
+.withMenuLogo a.logo-area img {
+  display: block;
+  max-height: 65px;
+}
 .withMenuLogo a.logo-area {
   display: block;
   margin-right: 60px;
@@ -187,9 +190,8 @@ ul#menu li a.active {
 }
 
 a.themeBtn {
-  padding: 14px 32px;
-  border-radius: 8px;
-  font-size: 20px;
+  padding: 14px 30px;
+  border-radius: 8px; 
   color: #fff;
   transition: .2s;
   position: relative;
@@ -208,7 +210,7 @@ a.themeBtn.inactive:hover {
 }
 
 .header-actions a.themeBtn.inactive {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 a.themeBtn:not(.inactive):after,a.themeBtn:not(.inactive):before {
@@ -297,10 +299,13 @@ a.themeBtn:not(.inactive):hover:after {
 .hero-area {
   padding-top: 68px;
 }
+.hero-area .container {
+  max-width: 1140px;
+}
 .hero-content h1 {
   font-weight: 700;
-  font-size: 75px;
-  line-height: 100px;
+  font-size: 58px;
+  line-height: 74px;
   margin: 0;
 }
 
@@ -312,19 +317,19 @@ a.themeBtn:not(.inactive):hover:after {
 }
 
 .minfoBlk {
-  width: 46%;
+  width: 47%;
   padding: 0 34px;
   text-align: center;
   border: 3px solid;
   border-image-slice: 1;
   border-width: 3px;
 }
-
 .minfoBlk h5 {
   font-weight: 500;
-  font-size: 28px;
-  line-height: 76px;
+  font-size: 24px;
+  line-height: 50px;
   margin: 0;
+  margin-top: 10px;
 }
 .minfoBlk.pirple { 
   border-image-source: linear-gradient(to bottom, #9D01FE -20%, #E2E2E280 40%, #12071B8A 100%);
@@ -354,10 +359,9 @@ a.themeBtn:not(.inactive):hover:after {
   padding: 100px 0;
 }
 .section-title h1 {
-  font-size: 50px;
-  line-height: 76px;
+  font-size: 38px;
+  line-height: 60px;
 }
-
 .workdingSteps {
   display: flex;
   justify-content: space-between;
@@ -365,7 +369,7 @@ a.themeBtn:not(.inactive):hover:after {
 }
 
 .singleStep {
-  width: 48%;
+  width: 47%;
   background: #1C1620;
   border-radius: 30px;
   text-align: center;
@@ -387,13 +391,13 @@ a.themeBtn:not(.inactive):hover:after {
 .stepRepresenter img {
   display: block;
   margin: auto;
-  max-height: 85px;
+  max-height: 60px;
 }
 .stepRepresenter:after {
   content: "";
   position: absolute;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -411,11 +415,10 @@ a.themeBtn:not(.inactive):hover:after {
   background: rgba(47, 174, 202, 0.4);
 }
 .singleStep .stwrp h5 {
-  font-size: 28px;
-  line-height: 76px;
+  font-size: 24px;
+  line-height: 65px;
   margin: 0;
 }
-
 .singleStep .stwrp p {
   margin: 0;
 }
@@ -448,17 +451,16 @@ a.themeBtn:not(.inactive):hover:after {
   max-width: 765px;
 }
 .cta-content h3 {
-  font-size: 70px;
-  line-height: 76px;
+  font-size: 52px;
+  line-height: 75px;
+  margin: 0;
 }
-
 .cta-content p {
   margin: 0;
-  margin-top: 37px;
-  font-size: 40px;
-line-height: 55px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 30px;
 }
-
 .cta-area {
   padding: 200px 0;
   position: relative;
