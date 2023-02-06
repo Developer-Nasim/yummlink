@@ -195,6 +195,7 @@ a.themeBtn {
   color: #fff;
   transition: .2s;
   position: relative;
+  display: inline-block;
   z-index: 4;
 }
 
@@ -233,24 +234,15 @@ a.themeBtn:not(.inactive):hover:after {
 }
 /* humbergar */
 .bar a {
-  width: 35px;
-  height: 35px;
+  margin-left: auto;
+  display: block;
+  width: 36px;
+  height: 36px;
   float: right;
   position: relative;
 } 
-.bar a span {
-  width: 100%;
-  height: 3px;
-  background: #fff;
-  display: block;
-  position: relative;
-  top: 17px;
-  border-radius: 30px;
-  transition: .3s;
-} 
-.bar a span:before {left: 0;content: "";position: absolute;width: 100%;height: 100%;background: #fff;bottom: 10px;border-radius: 30px;transition: .3s;} 
-.bar a span:after {left: 0;content: "";position: absolute;width: 100%;height: 100%;background: #fff;bottom: -10px;border-radius: 30px;transition: .3s;}
- 
+
+
 /* humbarger END */
  
 
@@ -259,35 +251,48 @@ a.themeBtn:not(.inactive):hover:after {
   position: fixed;
   width: 320px;
   height: 100vh;
-  background: #ffffff;
+  background: #0d0613;
   z-index: 99;
-  box-shadow: 0px 0px 9px -1px #737373;
+  box-shadow: 0px 0px 9px -1px #38383882;
   top: 0;
   left: 0;
   transition: .3s;
   margin-left: -400px;
-  padding-left: 40px;
-  padding-top: 100px;
+  padding: 30px;
 }
 .siteBar{
   margin-left: 0; 
 }
- 
+.mobile-menu .header-actions {
+  margin-top: 50px;
+}
+.mobile-menu a.logo {
+  display: block;
+  max-width: 110px;
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+.mobile-menu ul#menu li {
+  width: 100%;
+  margin-bottom: 15px;
+}
 .mobile-menu a.bars {
   position: absolute;
   right: 20px;
-  top: 15px;
+  top: 25px;
   width: 40px;
   height: 40px;
-  background: #ff4900;
+  background: #e70909;
   text-align: center;
-  line-height: 40px;
+  line-height: 38px;
   border-radius: 50%;
   font-size: 22px;
   color: #fff;
   box-shadow: 0px 0px 17px -2px #0000004a;
 }
-
+.mobile-menu a.themeBtn {
+  padding: 14px 24px; 
+}
 
 
 

@@ -38,6 +38,74 @@
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    body { 
+        background: #09030d; 
+    }
+    .header-area ul#menu{
+        display: none;
+    }
+    .hero-content h1 {
+        text-align: left;
+        font-size: 52px;
+        line-height: 90px;
+        margin-bottom: 40px;
+    }
+    .hero-area {
+        padding-top: 40px;
+    }
+    .hero-img img {
+        text-align: left;
+        display: block;
+    }
+    
+    .minfoBlk {
+        padding: 0 15px;
+    }
+    
+    .minfoBlk h5 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 46px;
+    }
+    
+    .moreinfo {
+        margin-top: 80px;
+    }
+    
+    .howitsWork {
+        padding: 60px 0;
+    }
+    
+    .singleStep {
+        padding: 40px;
+    }
+    
+    footer > img {
+        margin-top: -38px;
+        margin-bottom: 30px; 
+    }
+    
+    .footerLeftWidget form p {
+        margin-top: 40px;
+    }
+    
+    .footer-content-wrp {
+        padding-top: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -45,8 +113,155 @@
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+    body { 
+        background: linear-gradient(0, #12071b, #12071b, #0d0613, #0d0613, #0d0613) 
+    }
+    .header-area ul#menu{
+        display: none;
+    }
+    footer { 
+        padding-top: 70px;
+    }
+    .hero-content h1 {
+        text-align: left;
+        font-size: 24px;
+        line-height: 90px;
+        margin-bottom: 20px;
+    }
+    .hero-area {
+        padding-top: 0px;
+    }
+    .hero-img img {
+        text-align: left;
+        display: block;
+        margin-left: -15%;
+    }
+    .minfoBlk {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    .minfoBlk h5 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .moreinfo {
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+    .section-title h1 {
+        font-size: 22px;
+        line-height: 76px;
+    }
+    .howitsWork {
+        padding: 0px 0;
+    }
+    .singleStep {
+        padding: 40px 12px;
+        width: 100%;
+        margin-top: 130px;
+    }
+    footer > img {
+        /* margin-top: -38px;
+        margin-bottom: 30px; */
+        display: none;
+    }
+    
+    .footerLeftWidget form p {
+        margin-top: 40px;
+    }
+    
+    .footer-content-wrp {
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    .section-title h1 {
+        font-size: 22px;
+        line-height: 76px;
+    }
+    
+    .cta-wrp {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .cta-wrp > a.themeBtn {
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+    .cta-content h3 {
+        font-size: 24px;
+        line-height: 65px;
+    }
+    
+    .cta-content p {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 28px;
+        color: #fff;
+    }
 
- 
+    .cta-area {
+        padding: 130px 0;
+        margin-top: 50px;
+    }
+    .cta-area > img { 
+        min-width: 800px; 
+    }
+    .footerLeftWidget a img {
+        max-height: 70px;
+    }
+    .footerLeftWidget form label button { 
+        width: 45px;
+        height: 45px; 
+    }
+    .singleFBlk {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .singleFBlk > a { 
+        margin-top: 10px; 
+    }
+    .fbtm { 
+        padding-bottom: 30px;
+        padding-top: 20px; 
+        margin-top: 50px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .fbtm p {
+        font-size: 14px; 
+        margin-top: 14px; 
+    }
+    .fbtm ul li{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+    .fbtm ul li:last-child {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+    }
+    .fbtm ul {  
+        justify-content: flex-start;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-right: 80px;
+        position: relative;
+    }
+
+
+
+
+
 }
  
 /* Large Mobile screen :480px. */
