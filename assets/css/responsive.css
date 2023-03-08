@@ -24,7 +24,10 @@
         margin: 20px 0;
     }
 
-
+    .auth-area img.shapeImgs { 
+        max-height: 590px;
+    }
+    
 
 
 
@@ -92,8 +95,12 @@
     .footer-content-wrp {
         padding-top: 60px;
     }
-
-
+    .auth-area img.shapeImgs { 
+        max-height: 420px;
+    }
+    .auth-area { 
+        padding: 220px 0; 
+    }
 
 
 
@@ -257,6 +264,27 @@
         padding-right: 80px;
         position: relative;
     }
+
+
+
+    .auth-area img.shapeImgBg {
+        max-width: 300px;
+        height: auto;
+        left: 0;
+        top: 70px;
+    }
+    .auth-area img.shapeImgs {
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+
 
 
 

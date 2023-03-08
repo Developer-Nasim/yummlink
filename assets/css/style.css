@@ -147,6 +147,13 @@ ul.bcmb li {
 .header-area {
   padding: 15px 0;
 }
+.fixed_header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
 .withMenuLogo {
   display: flex;
   align-items: center;
@@ -252,7 +259,7 @@ a.themeBtn:not(.inactive):hover:after {
   width: 320px;
   height: 100vh;
   background: #0d0613;
-  z-index: 99;
+  z-index: 99999;
   box-shadow: 0px 0px 9px -1px #38383882;
   top: 0;
   left: 0;
@@ -680,6 +687,166 @@ footer > img {
   right: 5px;
   margin-top: -7px;
 }
+
+
+
+
+
+
+
+/* Home page END and Auth page started */
+
+
+
+
+
+
+
+
+
+
+/* .auth-area {
+  position: relative;
+  padding: 290px 0;
+  z-index: 2;
+  overflow: hidden;
+} */
+.auth-area {
+  position: relative;
+  padding: 90px 0;
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.auth-area img.shapeImgs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+}
+
+.auth-area img.shapeImgBg {
+  right: 0;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  z-index: -2;
+}
+
+.auth-area > img {
+  position: absolute;
+  z-index: -1;
+}
+.mulstistepform {
+  text-align: center;
+  max-width: 450px;
+  margin-left: auto;
+}
+.steps h5 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.steps p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 29px;
+  color: #fff;
+  margin-top: 10px;
+}
+.steps p button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: #FF8992;
+  font-weight: 600;
+}
+.steps {
+  display: none;
+}
+.steps.active {
+  display: block;
+} 
+
+.steps label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.steps input {
+  background: #6F29A7;
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  border-radius: 8px;
+  height: 50px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+}
+.steps label img {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  cursor: pointer;
+  opacity: .4;
+  transition: .3s;
+}
+.steps label img.active{
+  opacity: 1;
+}
+.steps > button {
+  background: linear-gradient(94.65deg, #DE00CB 8.11%, #0040FF 90.39%);
+  border-radius: 8px;
+  height: 54px;
+  padding: 14px 40px;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  margin-top: 40px;
+}
+
+.steps > a {
+  display: block;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 29px;
+  color: #fff;
+}
+.otp_inp {
+  background: #6F29A7;
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  border-radius: 8px;
+  padding: 30px 50px 28px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.otp_inp input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.44);
+  margin: 0 5px;
+}
+
+
+
+
+
 
 
 
