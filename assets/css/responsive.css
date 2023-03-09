@@ -102,8 +102,19 @@
         padding: 220px 0; 
     }
 
-
-
+    .bst_img{
+        margin-top: 0;
+    }
+    footer.footre2 ul.menus a { 
+        margin: 0 20px;
+    }
+    .dashboard .row {
+        flex-direction: column-reverse;
+    }
+    
+    .dashboard .dash-wrp-right {
+        margin-bottom: 40px;
+    }
 
 
 
@@ -277,13 +288,128 @@
         width: 100%;
         object-fit: cover;
     }
+    .bst_img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    } 
+    .bio-setting .row.last-row {
+        flex-direction: column-reverse;
+    }
+
+    .testingcontents .tscActions .actions{
+        margin-top: 15px;
+    }
+    .tactBtns a.themeBtn,.tactBtns a.themeBtn.inactive {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 8px 15px;
+        border-radius: 5px;
+    }
+    
+    .tactBtns a.themeBtn.inactive {
+        margin-left: 4px;
+    }
+    
+    .tactBtns a.themeBtn img {
+        max-height: 11px;
+    }
+    .tactBtns { 
+        margin: 20px 0;
+    }
+    label.urlsort > div a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        padding: 5px 10px;
+    }
+    label.urlsort p{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    label.urlsort { 
+        margin-bottom: 30px;
+    }
+    ul.the_colors li { 
+        height: 65px; 
+    }
+    .accordion-item button.accordion-button { 
+        padding: 10px;
+    }
+    .accordion-item button.accordion-button > img { 
+        right: 15px; 
+    }
+    footer.footre2 ul.menus li{
+        width: 100%;
+    }
+    footer.footre2 ul.menus a { 
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .header-area.header2 {
+        padding: 10px 0;
+    }
+    footer.footre2 { 
+        padding: 40px 0;
+        padding-bottom: 20px;
+    }
+
+
+    .dashboard {
+        padding: 35px 0;
+    }
 
 
 
+    .dashboard .row {
+        flex-direction: column-reverse;
+    }
+    
+    .dashboard .dash-wrp-right {
+        margin-bottom: 30px;
+        border-radius: 25px;
+        padding: 20px 15px;
+    }
+    .dashblk { 
+        padding: 20px;
+        margin-bottom: 15px; 
+    }
+    .dashblk:last-child{
+        margin-bottom: 0;
+    }
+    .dash-graph { 
+        border-radius: 20px;
+        padding: 0;
+        padding-top: 10px;
+        margin-bottom: 50px;
+    }
+    .dash-content_titles a.themeBtn {
+        padding: 9px 15px;
+    }
+    .dash-content_titles button { 
+        margin-left: 11px;
+    }
+    .testingListBlk { 
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 15px; 
+    }
 
-
-
-
+    .testingListBlk-left div > a { 
+        font-size: 14px;
+    }
+    .testingListBlk-left > div > div { 
+        margin-top: 10px;
+    }
+    .testingListBlk-right { 
+        margin: auto;
+        margin-top: 15px;
+    }
+    .testingListBlk-right a {
+        margin-left: 15px;
+        max-width: 20px;
+    }
 
 
 
